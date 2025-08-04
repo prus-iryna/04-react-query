@@ -40,8 +40,8 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
         </button>
         <img
           src={
-            movie.poster_path
-              ? "https://image.tmdb.org/t/p/w500" + movie.poster_path
+            movie.backdrop_path
+              ? "https://image.tmdb.org/t/p/w500" + movie.backdrop_path
               : "https://image.tmdb.org/t/p/original/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg"
           }
           alt={movie.title}
